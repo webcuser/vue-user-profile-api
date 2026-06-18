@@ -1,0 +1,19 @@
+{
+  "name": "vue-user-profile-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing user profiles with Vue.js as the frontend.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "keywords": ["vue", "api", "user-management"],
+  "license": "MIT"
+}
